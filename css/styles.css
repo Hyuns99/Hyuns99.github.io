@@ -104,6 +104,23 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.main-color {
+	color: #974a2d;
+}
+.skill-contents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skill-box {
+	padding: 20px;
+	background-color: #333;
+	box-shadow: 4px 4px 2px #aaa;
+	border-radius: 4px;
+	margin-bottom: 1rem;
+	color: #fff;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -10925,8 +10942,8 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
@@ -10951,7 +10968,7 @@ section.resume-section {
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  max-width: 75rem;
+  max-width: 90rem;
 }
 section.resume-section .resume-section-content {
   width: 100%;
