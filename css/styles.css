@@ -107,31 +107,8 @@ body {
 .main-color {
 	color: #974a2d;
 }
-.skill-contents {
-    display: flex;
-    gap: 20px;
-    align-items: stretch; /* 자동으로 동일한 높이 맞춤 */
-}
-
-.skill {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    flex: 1; /* 모든 .skill 요소가 동일한 너비를 가짐 */
-}
-
-.skill-box {
-    padding: 20px;
-    background-color: #333;
-    box-shadow: 4px 4px 2px #aaa;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* 내부 요소를 위아래로 정렬 */
-	align-self: stretch; 
-    flex-grow: 1; /* 높이를 동일하게 확장 */
+.word-break {
+	word-break: keep-all !important;
 }
 hr {
   margin: 1rem 0;
