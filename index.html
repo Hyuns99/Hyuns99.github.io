@@ -412,9 +412,9 @@
 														<ol>
 															<li><span class="b-title">미결재 리스트</span>
 																<ul>
-																	<li>- 결재자와 로그인한 사원번호가 같고, 강의결재상태가 ‘대기’이고 강의결재순위가 approval_level와 같은것만 출력</li>
-																	<li>- union all로 근태와 강의 결재 같은 행에 출력</li>
-																	<li>- 만약 미결재리스트에서 행을 클릭했을 경우 강의결재 번호가 있을경우에는 ''/waitAttendanceApprovalOne?attendanceApprovalNo=' 
+																	<li> 결재자와 로그인한 사원번호가 같고, 강의결재상태가 ‘대기’이고 강의결재순위가 approval_level와 같은것만 출력</li>
+																	<li> union all로 근태와 강의 결재 같은 행에 출력</li>
+																	<li> 만약 미결재리스트에서 행을 클릭했을 경우 강의결재 번호가 있을경우에는 ''/waitAttendanceApprovalOne?attendanceApprovalNo=' 
 																		+ list.attendanceApprovalNo}}'로 페이지 전환이 되고 없을 경우에는 '/lectureApprovalOne?lectureApprovalNo=' 
 																		+ list.lectureApprovalNo' 로 페이지 전환
 																	</li>
@@ -422,9 +422,9 @@
 															</li>
 															<li><span class="b-title">강의실 관리</span>
 																<ul>
-																	<li>- classroom테이블에서 강의실 번호, 강의실명, 수용인원, 담당자를 출력 후 담당자와 employee테이블을 join하여 이름, 프로필사진, 사원번호 출력</li>
-																	<li>- Restful API를 활용해서 Ajax로 데이터를 받아서 뷰로 출력</li>
-																	<li>- 행정팀일 경우 강의실 등록 및 수정, 삭제버튼 출력</li>
+																	<li> classroom테이블에서 강의실 번호, 강의실명, 수용인원, 담당자를 출력 후 담당자와 employee테이블을 join하여 이름, 프로필사진, 사원번호 출력</li>
+																	<li> Restful API를 활용해서 Ajax로 데이터를 받아서 뷰로 출력</li>
+																	<li> 행정팀일 경우 강의실 등록 및 수정, 삭제버튼 출력</li>
 																</ul>
 															</li>
 															<li><span class="b-title">회의실 예약</span>
